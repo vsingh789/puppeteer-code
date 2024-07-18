@@ -14,7 +14,7 @@ app.get('/screenshot', async (req, res) => {
         ]
     });
     const page = await browser.newPage();
-    await page.goto('https://www.google.com');
+    await page.goto('https://kargone.com');
     const imageBuffer = await page.screenshot();
     await browser.close();
 
