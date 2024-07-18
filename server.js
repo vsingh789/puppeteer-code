@@ -23,6 +23,6 @@ app.get('/screenshot', async (req, res) => {
     console.log('Screenshot taken');
 });
 
-app.listen(3000, () => {
+app.listen(8082, () => {
     console.log('Listening on port 3000');
 });
